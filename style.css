@@ -1,0 +1,827 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.greeting {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: #CC0000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greeting h3 {
+    font-size: 16px;
+    color: white;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    box-shadow:  6px 4px 1px rgb(0 0 0 / 20%);
+}
+
+.header h2 {
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.navBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+
+.navBarChild a {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.navBarChild{
+    margin-left: 200px;
+}
+.navBarChild a:hover {
+    text-decoration: underline;
+    color: #CC0000;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    line-height: 3em;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.phoneIcon {
+    height: 20px;
+}
+
+.phoneNumber {
+    display: flex;
+    background-color: rgb(247, 210, 210);
+    padding: 10px;
+    border-radius: 100px;
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+}
+
+.phoneNumber a {
+    color: black;
+    
+}
+
+.contact a {
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 10px;
+    font-size: 16px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.logoHeader {
+    height: 100px;
+    display: flex;
+    padding-left: 60px;
+    padding-top: 10px;
+
+
+}
+
+.buttonChild {
+    display: flex;
+    background-color: rgb(0, 168, 205);
+    padding: 10px;
+    border-radius: 100px;
+    width: 180px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.button {
+    margin-left: 20px;
+}
+
+.backgroundImg {
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.textMain {
+    position: absolute;
+    top: 200px;
+    left: 78px;
+    font-size: 40px;
+}
+.textMainParent{
+    position: absolute;
+    top:300px;
+    left: 78px;
+    font-size: 25px;
+}
+
+.textMainParent span {
+    font-weight: bold;
+}
+
+.textMainChild {
+    display: flex;
+    position: absolute;
+    top: 380px;
+    left: 160px;
+    flex-direction: column;
+}
+
+.textMainList {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.iconCorrect {
+    height: 30px;
+    padding-right: 10px;
+}
+
+.buttonChildMain {
+    position: absolute;
+    top: 640px;
+    left: 190px;
+    display: flex;
+    background-color: rgb(0, 168, 205);
+    padding: 10px;
+    border-radius: 100px;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.howItWork h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.howItWork {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+    
+}
+
+.howItWorkChild {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.iconhowItWork{
+    height: 50px;
+    margin-bottom: 30px;
+}
+.howItWorkSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+
+.howItWorkSection h3{
+    font-size: 14px;
+}
+
+.howItWorkSection p {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -3px;
+    line-height: 1.5em;
+}
+
+.cleanSpectrum {
+    background-color: rgb(254, 236, 236);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    flex-direction: column;
+    
+}
+
+.cleanSpectrumChild {
+    width: 300px;
+    display: flex;
+    height: 150px;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+    margin-right: 40px;
+}
+
+.cleanSpectrum h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.cleanSpectrumSection{
+    display:flex;
+    
+}
+
+.iconSpectrum {
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+}
+
+.booking {
+    display: flex;
+    height: 300px;
+    background-color: rgb(0, 168, 205);
+    flex-direction: column;
+}
+
+.booking h2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    line-height: 1.5em;
+    color: white;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.booking a {
+    text-decoration: none;
+    
+}
+
+.buttonsBookingSection {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+}
+
+.bookingPositionButton {
+    display: flex;
+    margin-left: 450px;
+}
+
+.buttonBooking {
+    display: flex;
+    padding: 20px;
+    border-radius: 90px;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(0, 168, 205);
+    margin-right:30px;
+    
+}
+
+.buttonsBookingSectionChild {
+    display: flex;
+    padding: 20px;
+    border-radius: 90px;
+    border: 2px solid white;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(0, 168, 205);
+    margin-left: 20px;
+
+}
+
+.buttonsBookingSectionChild a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+}
+
+.promisSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 50px;
+      
+}
+.promisSection h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.promisSectionChild {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ .promisSection h3{
+    font-size: 14px;
+ }
+
+.promisIcon {
+    height: 30px;
+}
+
+.promisSectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left:40px;
+    margin-right: 40px;
+    text-align: center;
+    padding:5px;
+}
+
+.promisSectionContainer p{
+    display:flex;
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+.customer img {
+    height: 80px;
+    margin-bottom: -20px;
+}
+
+.customerIcon {
+    height: 40px !important;
+    margin-right: -100px;
+    padding-right: 15px;
+}
+
+.customerIcon1 {
+    height: 40px !important;
+    margin-right: -100px;
+    padding-right: 20px;
+}
+
+.customerSection {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    height: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: rgb(254, 236, 236);
+    ;
+}
+
+.customer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.customerChild {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+
+
+.ourSolutions h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+}
+
+.ourSolutions{
+    margin-bottom: 80px;
+}
+
+.bevorAfter {
+    object-fit: cover;
+    margin-left: 30px;
+    height: 400px;
+    width: 600px;
+}
+
+.rezesion{
+    height: 280px;
+    margin-right: 250px;
+}
+
+.ourSolutionsChild {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:80px;
+}
+
+.availableSection{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(254, 236, 236);
+    padding-bottom: 20px;
+}
+
+.availableSection h2{
+    text-align: center;
+    line-height: 1.5em;
+    font-size: 30px;
+    
+}
+
+.availableList{
+    text-align: center;
+}
+
+.availableList p{
+    font-size: 25px;
+    color: #CC0000;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(70, 67, 67);
+    color: white;
+    height: 800px;
+}
+
+.footerHeader{
+    display: flex;
+    justify-content: space-between;
+    margin-left:100px;
+    padding-top:30px;
+    
+}
+
+.footerHeader h2{
+    font-size: 40px;
+}
+
+.footerHeaderChild{
+    display:flex;
+    flex-direction: column;
+    margin-right:100px;
+}
+
+.footerHeaderMain{
+    display:flex;
+}
+
+.undertag{
+    line-height: 2em;
+    text-decoration: none;
+    color: white;
+}
+
+.undertag :hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.unterteilung1{
+    position: relative;
+    left:10%;
+    right:10%;
+    display:flex;
+    width: 80%;
+    margin-top:80px;
+}
+
+.unterteilung2{
+    position: relative;
+    left:10%;
+    right:10%;
+    display:flex;
+    width: 80%;
+}
+.footerPlacesHeader{
+    display:flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.footerPlacesList{
+    display:flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.impressum{
+    display:flex;
+    justify-content: center;
+    padding-top:40px;
+    gap: 20px;
+}
+
+.impressum a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.impressum a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.footerEnd p{
+    display:flex;
+    justify-content: center;
+    font-size: 16px;
+    padding-top:30px;
+}
+
+/*Preise*/
+
+.mainPriceList{
+    background-color: rgb(254, 236, 236);
+    margin-top: -25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cleaningPriceListBg1{
+    display:flex;
+    justify-content: center;
+    padding-top:100px;
+}
+
+.priceListEins{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.priceListDrei{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.priceListVier{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom:80px;
+}
+.priceListChild_1{
+    display:flex;
+    justify-content: space-around;
+    margin-top:60px;
+    border-bottom: 2px solid black;
+}
+.priceListChild_2{
+    display:flex;
+    
+}
+.iconPriceList{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+}
+.priceListIcon{
+    display: flex;
+    justify-content: center;
+    
+}
+.list_1{
+    display:flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-right: 2px solid black;
+    
+}
+.list_2{
+    display:flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-right: 2px solid black;
+    
+}
+.list_2_1{
+    display:flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:30px;
+    padding-bottom: 30px;
+   
+
+}
+.list_3{
+    display:flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-right: 2px solid black;
+    
+}
+.list_4{
+    display:flex;
+    width: 150px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left:70px;
+    padding-right:70px;
+    padding-top:30px;
+    padding-bottom: 30px;
+    
+}
+
+.list_1Child{
+    line-height: 0.5em;
+}
+
+.priceListZwei{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:50px;
+}
+
+
+.SwissPolsterSection{
+    background-color: rgb(0, 168, 205);
+    margin-top: -21px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+.SwissPolsterSection h1{
+    margin-top:50px;
+}
+.soldSection{
+    margin-top:20px;
+}
+.soldSectionInner{
+    display:flex;
+    align-items: center;
+    background-color:rgb(254, 236, 236);
+    padding-left:330px;
+    padding-right: 330px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.soldSectionInnerChild{
+    line-height: 1.5em;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 50px;
+   
+}
+
+.equal{
+    height: 30px;
+    width: 30px;
+    padding-right: 90px;
+}
+.plus{
+    height: 30px;
+    width: 30px;
+    padding-right: 50px;
+}
+.solution{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.solution p{
+    padding-left:10px;
+}
+.solutionPrice{
+    color: #CC0000;
+    font-weight: bold;
+    font-size: 30px;
+}
+.solutionOldPrice{
+    text-decoration: line-through;
+    color: black;
+}
+.bg3{
+    font-weight: bold;
+    color: black;
+}
+
+.soldSectionText span{
+    color: black;
+}
+
+
+   
+   
